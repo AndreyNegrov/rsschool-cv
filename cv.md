@@ -22,3 +22,26 @@ and user-centered design, seeks a position with a top technology firm.
     * html
     * css
     
+## Code examples
+
+```javascript
+        xhr.onreadystatechange = function () {
+
+            if (xhr.readyState !== 4) return;
+
+            if (xhr.status === 200) {
+                document.body.innerHTML = xhr.responseText;
+
+                const script = document.createElement('script');
+                script.src = "/trainings/' + name + '/script.js";
+                document.head.append(script);
+
+                script.remove();
+
+                const link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = '/trainings/' + name + '/style.css';
+                document.head.append(link);
+            }
+        };
+```
