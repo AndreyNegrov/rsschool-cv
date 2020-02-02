@@ -1,0 +1,8 @@
+header,
+main,
+footer {
+  width: 1024px;
+  margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;
+  background: #f5f5f5;
+}
