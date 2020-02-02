@@ -45,3 +45,20 @@ and user-centered design, seeks a position with a top technology firm.
             }
         };
 ```
+
+## Experience
+
+ABC TRAINING, _Philadelphia, Pa_.
+__TECHNICAL INSTRUCTOR/CURRICULUM DEVELOPER__ (November 2013 – Present)
+Brought on board to provide comprehensive training in ABC programs and tools 
+for the company’s high-profile clients, including ABC Bank and ABC School; 
+wrote company’s web-development manual. Link to my code: https://github.com/AndreyNegrov/demo
+
+## Education
+
+__ABC UNIVERSITY__, Philadelphia, Pa.
+Bachelor of Science (Major: Computer Science; Graduated Magna Cum Laude), May 2008
+
+## English
+
+strong intermediate level
