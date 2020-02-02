@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Andrey Niahrou</h1>
+  <img src="I.jpg" alt="Мое изображение" width="634" height="423">
+</header>
+<main>
+  <section>
+    <h2>Contact info</h2>
+    <ul>
+      <li><b>mobile:</b> <span>+375445948450</span></li>
+      <li><b>skype:</b> <span>strateg.dev03</span></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Summary</h2>
+    <article>
+      ﻿Award-winning web developer and instructor with 10+ years
+      of well-rounded experience in LAMP development, object-oriented
+      and user-centered design, seeks a position with a top technology firm.
+    </article>
+  </section>
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>
+        <b>backend:</b>
+        <ul>
+          <li>php</li>
+          <li>sql</li>
+          <li>symfony</li>
+        </ul>
+      </li>
+      <li>
+        <b>frontend:</b>
+        <ul>
+          <li>js</li>
+          <li>html</li>
+          <li>css</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2>Code examples</h2>
+    <pre>
+      xhr.onreadystatechange = function () {
+
+        if (xhr.readyState !== 4) return;
+
+        if (xhr.status === 200) {
+          document.body.innerHTML = xhr.responseText;
+
+          const script = document.createElement('script');
+          script.src = "/trainings/' + name + '/script.js";
+          document.head.append(script);
+
+          script.remove();
+
+          const link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = '/trainings/' + name + '/style.css';
+          document.head.append(link);
+        }
+      };
+    </pre>
+  </section>
+  <section>
+    <h2>Experience</h2>
+    <article>
+      ABC TRAINING, <i>Philadelphia, Pa</i>.
+      <b>TECHNICAL INSTRUCTOR/CURRICULUM DEVELOPER</b> (November 2013 – Present)
+      Brought on board to provide comprehensive training in ABC programs and tools
+      for the company’s high-profile clients, including ABC Bank and ABC School;
+      wrote company’s web-development manual. Link to my code: <a>https://github.com/AndreyNegrov/demo</a>
+    </article>
+  </section>
+  <section>
+    <h2>Education</h2>
+    <article>
+      <b>ABC UNIVERSITY</b>, Philadelphia, Pa.
+      Bachelor of Science (Major: Computer Science; Graduated Magna Cum Laude), May 2008
+    </article>
+  </section>
+  <section>
+    <h2>English</h2>
+    <article>
+      strong intermediate level
+    </article>
+  </section>
+</main>
+<footer>
+  <p>С Уважением,</p>
+  <p>Андрей Негров</p>
+</footer>
+</body>
+</html>
